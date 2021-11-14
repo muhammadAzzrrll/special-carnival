@@ -19,8 +19,8 @@ jobs:
           echo $d > README.md
       - name: Commit changes
         run: |
-          git config --local user.email "{salvika.natasya.1806116@students.um.ac.id}"
-          git config --local user.name "{salvika12}"
+          git config --local user.email "{muhammad.azrul.1704136@students.um.ac.id}"
+          git config --local user.name "{muhammadAzzrrll}"
           git add -A
           git commit -m "Sebuah pesan"
       - name: Push Back
